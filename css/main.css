@@ -172,6 +172,10 @@ h1 {
     font-weight: 200;
 }
 
+h2 {
+    font-weight: 200;
+}
+
 p {
     font-weight: 200;
 }
@@ -227,6 +231,10 @@ p {
     background-color: #fff;
 }
 
+.shipping-container {
+    background-color: #fff;
+}
+
 .headshot {
     border: 1px solid #44B6FF;
     border-radius: 2000px;
@@ -253,6 +261,25 @@ p {
     background: -ms-linear-gradient(top,  #a0daff 7%,#44b6ff 100%); /* IE10+ */
     background: linear-gradient(to bottom,  #a0daff 7%,#44b6ff 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0daff', endColorstr='#44b6ff',GradientType=0 ); /* IE6-8 */
+}
+
+.shipping-option {
+    width: 50%;
+    background-color: #bd0000;
+    display: inline-block;
+    padding-top: 250px;
+    color: #fff;
+}
+.option-left {
+    float: left;
+    background-image: url(../img/concierge.png);
+}
+.option-right {
+    float: right;
+    background-image: url(../img/box.png);
+}
+.spacing {
+    margin: 30px;
 }
 
 /* ==========================================================================
