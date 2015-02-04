@@ -168,6 +168,10 @@ video#bgvid {
     text-align: center;
 }
 
+.text-right {
+    text-align: right;
+}
+
 h1 {
     font-weight: 200;
 }
@@ -180,8 +184,12 @@ p {
     font-weight: 200;
 }
 
+.margin-top {
+    margin-top: 30px;
+}
+
 .margin-bottom {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 #media-partners{
@@ -270,13 +278,35 @@ p {
     padding-top: 250px;
     color: #fff;
 }
+.tinted-image {
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    ),
+}
 .option-left {
     float: left;
-    background-image: url(../img/concierge.png);
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(68,182,255,.45), 
+      rgba(68,182,255,.7)
+    ),
+    /* bottom, image */
+    url(../img/concierge.png);
 }
 .option-right {
     float: right;
-    background-image: url(../img/box.png);
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(68,182,255,.45), 
+      rgba(68,182,255,.7)
+    ),
+    /* bottom, image */
+    url(../img/box.png);
 }
 .spacing {
     margin: 30px;
