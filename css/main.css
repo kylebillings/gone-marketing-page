@@ -291,8 +291,8 @@ p {
     background: 
     /* top, transparent red, faked with gradient */ 
     linear-gradient(
-      rgba(68,182,255,.45), 
-      rgba(68,182,255,.7)
+      rgba(0,0,0,.3), 
+      rgba(0,0,0,.3)
     ),
     /* bottom, image */
     url(../img/concierge.png);
@@ -302,8 +302,8 @@ p {
     background: 
     /* top, transparent red, faked with gradient */ 
     linear-gradient(
-      rgba(68,182,255,.45), 
-      rgba(68,182,255,.7)
+      rgba(0,0,0,.3), 
+      rgba(0,0,0,.3)
     ),
     /* bottom, image */
     url(../img/box.png);
