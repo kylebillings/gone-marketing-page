@@ -182,7 +182,7 @@ p {
 
 #media-partners{
   width: 100%;
-  padding-bottom: 15px;
+  padding-bottom: 21px;
   background-color: #E8E8E8;
   text-align: center;
 }
@@ -221,6 +221,17 @@ p {
 
 .pricing-container {
     color: #fff;
+}
+
+.testimonial-container {
+    background-color: #fff;
+}
+
+.headshot {
+    border: 1px solid #44B6FF;
+    border-radius: 2000px;
+    padding: 7px;
+    width: 225px;
 }
 
 .white {
