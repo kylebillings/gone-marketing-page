@@ -182,7 +182,7 @@ p {
 
 #media-partners{
   width: 100%;
-  height: 85px;
+  padding-bottom: 15px;
   background-color: #E8E8E8;
   text-align: center;
 }
