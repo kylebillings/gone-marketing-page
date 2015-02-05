@@ -254,7 +254,7 @@ p {
 
 .headshot {
     border: 1px solid #44B6FF;
-    border-radius: 2000px;
+    border-radius: 9999px;
     padding: 7px;
     width: 225px;
 }
