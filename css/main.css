@@ -243,6 +243,15 @@ p {
     background-color: #fff;
 }
 
+.mockup-container {
+    background: url(../img/mockup.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 520px;
+}
+
 .headshot {
     border: 1px solid #44B6FF;
     border-radius: 2000px;
