@@ -640,7 +640,7 @@ p {
   transition-property: color, background-color;
 }
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
-  background-color: #2098d1;
+  background-color: rgba(68,182,255,.7);
   color: white;
 }
 
