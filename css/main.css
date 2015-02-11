@@ -422,12 +422,15 @@ p {
    ========================================================================== */
 @media only screen and (max-width: 480px) {
 
-/* ====================
-    INTERMEDIATE: Menu
-   ==================== */
-
     .header-container {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+
+    .shipping-option {
+        width: 100%;
     }
 }
 
