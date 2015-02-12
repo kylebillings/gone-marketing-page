@@ -97,7 +97,7 @@ body {
 
 .footer-container,
 .main aside {
-    background-color: #4A4A4A;
+    background-color: #222426;
 }
 
 .header-container,
@@ -280,7 +280,6 @@ p {
 .outline {
     border-radius: 9999px;
     border: 1px solid #44B6FF;
-    display: inline-block;
 }
 .headshot {
     border-radius: 9999px;
@@ -413,8 +412,79 @@ p {
   left: 0;
   top: 0;
 }
-.quote {
-  display: inline;
+
+.testimonial-quote {
+    font-size: 16px;
+}
+
+.testimonial-quote blockquote {
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+    background: none;
+    color: #222426;
+    font-size: 1.5em;
+    font-style: italic;
+    line-height: 1.4 !important;
+    margin: 0;
+    position: relative;
+    z-index: 600;
+}
+
+.testimonial-quote blockquote * {
+    box-sizing: border-box; 
+}
+
+.testimonial-quote blockquote p {
+    color: #222426; 
+    line-height: 1.4 !important;
+}
+
+.testimonial-quote img {
+    border-radius: 50%;
+    display: block;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: -.2em; 
+    left: 0;    
+}
+
+.testimonial-quote cite {
+    color: #222426;
+    display: block;
+    line-height: 1.5em;
+}
+  
+.testimonial-quote cite span {
+    color: #44B6FF;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.testimonial-quote {
+    position: relative; 
+}
+
+.testimonial-quote .quote-container {
+    padding-left: 180px; 
+}
+  
+.testimonial-quote.right .quote-container {
+    padding-left: 0;
+    padding-right: 180px; 
+}
+
+.testimonial-quote.right img {
+    left: auto;
+    right: 0;
+}
+
+.testimonial-quote.right cite {
+    text-align: right; 
 }
 
 /* ==========================================================================
