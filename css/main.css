@@ -490,19 +490,41 @@ p {
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-@media only screen and (max-width: 480px) {
-
-    .header-container {
-        display: none;
-    }
-}
-
 @media only screen and (max-width: 720px) {
 
     .shipping-option {
         width: 100%;
     }
+    .mockup-container {
+      padding-top: 220px;
+    }
+    .mockup-container .wrapper {
+      text-align: center;
+    }
+    .step {
+      width: 80%;
+    }
 }
+@media only screen and (max-width: 480px) {
+
+    .header-container {
+        display: none;
+    }
+    .mockup-container {
+      padding-top: 120px;
+    }
+    .testimonial-quote .quote-container {
+      padding-left: 10px !important;
+      padding-top: 150px !important;
+    }
+    .testimonial-quote.right .quote-container {
+      padding-right: 10px !important;
+      padding-top: 150px !important;
+    }
+    .headshot {
+    }
+}
+
 
 @media only screen and (min-width: 480px) {
 
