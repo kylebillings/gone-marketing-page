@@ -80,7 +80,7 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 18px/36px 'OmnesRegular', Helvetica Neue, Helvetica, Arial;
+    font: 16px/24px 'OmnesRegular', Helvetica Neue, Helvetica, Arial;
 }
 
 .wrapper {
@@ -98,6 +98,10 @@ body {
 .footer-container,
 .main aside {
     background-color: #222426;
+}
+.footer-container a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .header-container,
@@ -122,7 +126,7 @@ nav ul {
 nav a {
     display: block;
     margin-bottom: 10px;
-    padding: 15px 0;
+    padding: 5px 0;
 
     text-align: center;
     text-decoration: none;
@@ -254,7 +258,7 @@ p {
 
 .intro-container {
     background-color: #fff;
-    color: #44B6FF;
+    color: #222426;
 }
 
 .pricing-container {
@@ -296,6 +300,7 @@ p {
     width: 70%;
     margin: 0 auto;
     margin-bottom: 15px;
+    opacity: 0.5;
 }
 
 .blue-gradient {
@@ -348,6 +353,9 @@ p {
 }
 .tinted-image .spacing {
     padding-top: 180px;
+}
+.add-bottom {
+  margin-bottom: 50px;
 }
 .remove-top {
     margin-top: 0;
@@ -486,7 +494,20 @@ p {
 .testimonial-quote.right cite {
     text-align: right; 
 }
-
+.hero {
+  padding-top: 50px;
+}
+.button {
+  background-color: #fff;
+  border: 1px solid #44B6FF;
+  border-radius: 4px;
+  margin: 20px;
+  padding: 10px 15px;
+}
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+}
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -540,7 +561,7 @@ p {
         font-size: 16px;
         float: right;
         margin: 0 5%;
-        padding: 25px 2%;
+        padding: 10px 2% 10px 2%;
         margin-bottom: 0;
     }
 
@@ -764,4 +785,48 @@ p {
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
+}
+
+
+.input{
+  display: inline-block;
+  position: relative;
+  margin-right: 20px;
+}
+
+input{
+  border: 1px solid #44B6FF;
+  padding: 15px 40px;
+  background: #fff;
+  font-size: 18px;
+  color: #222462;
+}
+
+input[type="text"],
+input[type="email"]{
+  border: none;
+  border-bottom: 1px solid #44B6FF;
+  padding-left: 0;
+}
+
+input:focus,
+input:active{
+  outline: none;
+}
+
+.input label{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  color: #999;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all .5s;
+}
+
+.input input:focus + label,
+.input input.hasValue + label{
+  top: 70px;
+  font-size: 12px;
+  color: #aaa;
 }

@@ -33,178 +33,52 @@
         <meta name="theme-color" content="#ffffff">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <style>.main {padding:10px;}.header-container{background-color:#44B6FF;}</style>
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-        <div class="main-container">
+        <div class="intro-container">
             <div class="header-container">
                 <header class="wrapper clearfix">
-                    <h1 class="title"></h1>
                     <nav>
                         <ul>
-                            <li><a href="#">Become a Partner</a></li>
-                            <li><a href="press.html">Press</a></li>
+                            <li><a href="partner.html">Become a Partner</a></li>
                             <li><a href="http://blog.thegoneapp.com/" target="_blank">Blog</a></li>
+                            <li><a href="index.html">Home</a></li>
                         </ul>
                     </nav>
                 </header>
             </div>
             <div class="main wrapper clearfix">
-                    <header class="text-center">
-                        <img style="width: 100px;" class="margin-bottom" src="img/gone-02.svg" alt="">
+                    <header class="text-center hero">
+                        <img style="width: 100px;" class="margin-bottom" src="img/gone-icon-blue.svg" alt="">
                         <h1 class="remove-bottom">Partner With Gone!</h1>
-                        <p class="margin-bottom">Gone! is a data-driven concierge service that makes it delightfully easy to turn your items into cash.</p>
-                        <a target="_blank" href="https://itunes.apple.com/app/id874081936?mt=8">
-                            <img style="width: 200px;" src="img/app-store.svg" alt=""> 
-                        </a>                
+                        <p class="margin-bottom">Interested in acquiring the items Gone! users are selling?<br/> Enter your information and connect with a growing network of partners.</p>              
                     </header>
             </div> <!-- #main -->
-        </div> <!-- #main-container -->
-        <div id="media-partners">
-            <img class="techstars-logo" src="img/techstars.png" alt="Techstars">
-            <img src="img/cnn.png" alt="CNN">
-            <img src="img/xconomy.png" alt="xConomy">
-            <img src="img/vb.png" alt="VentureBeat">
-            <img src="img/gigaom.png" alt="GIGAOM">
-            <img src="img/techcrunch.png" alt="TechCrunch">
-            <img class="slashgear-logo" src="img/slashgear.png" alt="SlashGear">
-        </div>
-        <div class="white">
-        <div class="arrow-down"></div>
-        </div>
-        <div class="intro-container">
-            <div class="main wrapper clearfix">
+            <div class="main wrapper clearfix add-bottom">
                     <header class="text-center">
-                        <h1>Designed to help sell your things.</h1>
-                        <hr class="blue-line">
-                        <p class="margin-bottom">Gone! takes care of the logistics of selling from finding the best listing prices for your items to handling all packaging and shipments and collecting money for your sales.</p>
-                        <div class="step">
-                            <img style="height: 120px;" class="remove-bottom" src="img/icon1.png" alt="">
-                            <h1 class="remove-top">Priced</h1>
-                            <p>Gone! algorithmically finds the best selling price for your items.</p>
-                        </div>
-                        <div class="step">
-                            <img style="height: 120px;" class="remove-bottom" src="img/icon2.png" alt="">
-                            <h1 class="remove-top">Packed</h1>
-                            <p>Gone! offers helpful shipping services once you are ready to sell.</p>
-                        </div>
-                        <div class="step">
-                            <img style="height: 120px;" class="remove-bottom" src="img/icon3.png" alt="">
-                            <h1 class="remove-top">Paid</h1>
-                            <p>Gone! sends you a check with your earnings once your items are sold.</p>
-                        </div>
+                    <form id="partners" method="post">
+                    <input type="text" class="text" id="firstname" required name="firstname" value="" placeholder="First Name" /><br/>
+                    <input type="text" class="text" id="lastname" required name="lastname" value="" placeholder="Last Name" /><br/>
+                    <input type="email" class="text" id="email" required name="email" value="" placeholder="Email Address" /><br/>
+                    <input type="text" class="text" id="city" required name="city" value="" placeholder="City" /><br/>
+                    <input type="text" class="text" id="zip" required name="zip" value="" placeholder="Zip Code" /><br/>
+                    <input type="text" class="text" id="phone" required name="phone" value="" placeholder="Phone Number" /><br/>
+                    <button type="submit" class="button hvr-fade" id="form-button">Become a Partner</button>
+                </form>
+
                     </header>
+    
             </div> <!-- #main -->
         </div> <!-- #intro-container -->  
         
-        <div class="pricing-container blue-gradient">
-            <div class="main wrapper clearfix">
-                    <header class="text-center">
-                        <h1>Finding the best prices for your items.</h1>
-                        <p class="margin-bottom">Gone! constantly analyzes transactions from all around the world to pinpoint and follow market prices for thousands of items.</p>
-                    </header>
-            </div> <!-- #main -->
-            <canvas width='1200' height='240' id="hero-bar"></canvas>
-        </div> <!-- #pricing-container -->
-
-        <div id="shipping-container">
-                <div class="shipping-option option-left">
-                    <div class="tinted-image hvr-fade">
-                        <div class="spacing hvr-grow">
-                            <h1>Concierge</h1>
-                            <p>In San Francisco & Austin, Gone! will send a member of our team to your home to collect your items for sale.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="shipping-option option-right">
-                    <div class="tinted-image hvr-fade">
-                        <div class="spacing hvr-grow">
-                            <h1>Box Service</h1>
-                            <p>If Gone! can’t make it to your door, you will receive free boxes and shipping instructions in the mail.</p>
-                        </div>
-                    </div>
-                </div>  
-        </div> <!-- #shipping-container -->
-
-        <div class="testimonial-container">
-            <div class="main wrapper clearfix">
-                <div style="width: 80%; margin: 0 auto; padding-top: 80px; padding-bottom: 80px;"> 
-                    <div class="testimonial-quote group hvr-grow">
-                            <img src="img/kyle.jpg" alt="" class="headshot">
-                        <div class="quote-container">
-                            <blockquote>
-                                <p>“Gone! has made my life so much easier. I didn’t realize how much I had to sell until it was this easy to do it!”</p>
-                            </blockquote>  
-                            <cite><span>Kyle Billings</span><br>
-                                Gone! user for 2 years.
-                            </cite>
-                        </div>
-                    </div>    
-                        
-                    <hr style="border-top: 1px solid #44B6FF; margin: 60px auto; opacity: .5;">     
-                    <div class="testimonial-quote group right hvr-grow">
-                            <img src="img/raphael.jpg" alt="" class="headshot">
-                        <div class="quote-container">
-                            <div>
-                                <blockquote>
-                                    <p>“I actually had a lot of fun using Gone!. I loved having them pack up my old Lenovo computer and send me cash for it.”</p>
-                                </blockquote>  
-                                <cite><span>Raphael Squire</span><br>
-                                    Gone! user for 1 year.
-                                </cite>
-                            </div>
-                        </div>
-                    </div>     
-                </div>
-            </div> <!-- #main -->
-        </div> <!-- #testimonial-container -->
-        <div class="pricing-container blue-gradient">
-            <div class="main wrapper clearfix">
-                    <header class="text-center">
-                        <h1>Frequently asked questions.</h1>
-                        <img style="width: 265px;" class="margin-bottom" src="img/icon4.png" alt="">
-                    </header>
-                            <div class="faq-c">
-                              <div class="faq-q"><span class="faq-t">+</span>Does Gone! buy my items from me?</div>
-                              <div class="faq-a">
-                                <p>Gone! is not a buyer, but a tool specifically designed to find buyers.</p>
-                              </div>
-                            </div>
-                            <div class="faq-c">
-                              <div class="faq-q"><span class="faq-t">+</span>How long will I need to wait before I get paid for my items?</div>
-                              <div class="faq-a">
-                                <p>From one to three weeks depending on a variety of factors. You will be able to monitor the entire process from within the application. </p>
-                              </div>
-                            </div>
-                            <div class="faq-c">
-                              <div class="faq-q"><span class="faq-t">+</span>What can I sell with Gone!</div>
-                              <div class="faq-a">
-                                <p>Take a look around you.</p>
-                              </div>
-                            </div>
-                            <div class="faq-c">
-                              <div class="faq-q"><span class="faq-t">+</span>Can I ask another question here?</div>
-                              <div class="faq-a">
-                                <p>Sure.</p>
-                              </div>
-                            </div>
-
-            </div> <!-- #main -->
-        </div> <!-- #pricing-container -->  
-        <div class="mockup-container">
-            <div class="main wrapper clearfix">
-                    <header>
-                        <img style="width: 200px;" src="img/app-store.svg" alt="">
-                    </header>
-            </div> <!-- #main -->
-        </div> <!-- #pricing-container -->
-
         <div class="footer-container">
             <footer class="wrapper text-center">
-                <img style="width: 50px;" class="margin-bottom" src="img/gone-02.svg" alt="">
+                <img style="width: 40px; margin-bottom: 10px;" src="img/gone-02.svg" alt=""><br>
+                <a href="/terms.html">Terms of Use</a> | <a href="/privacy.html">Privacy</a> | <a href="https://angel.co/gone-1/jobs" target="_blank">Jobs</a>
             </footer>
         </div>
         </body>
