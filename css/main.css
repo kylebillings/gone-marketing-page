@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'OmnesRegular';
-    src: url('../fonts/omnes_light-webfont.eot');
+    src: url('../fonts/_light-webfont.eot');
     src: url('../fonts/omnes_light-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/omnes_light-webfont.woff') format('woff'),
          url('../fonts/omnes_light-webfont.ttf') format('truetype'),
@@ -80,7 +80,7 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/30px 'OmnesRegular', Helvetica Neue, Helvetica, Arial;
+    font: 18px/30px 'OmnesRegular', Helvetica Neue, Helvetica, Arial;
     background-color: #f2f2f2;
 }
 
@@ -190,6 +190,9 @@ video#bgvid {
     background-color: rgba(68,182,255,.7);
     color: #fff;
 }
+.main-container > .wrapper {
+  max-width: 720px;
+}
 
 .text-center {
     text-align: center;
@@ -200,11 +203,18 @@ video#bgvid {
 }
 
 h1 {
-    font-weight: 200;
+    font-family: OmnesThin;
+    font-weight: 100;
 }
 
 h2 {
-    font-weight: 200;
+    font-family: OmnesThin;
+    font-weight: 100;
+}
+
+h3 {
+  font-family: OmnesThin;
+    font-weight: 100;
 }
 
 p {
@@ -332,7 +342,6 @@ p {
     /*background: rgba(68,182,255,.9);*/
 }
 .option-left {
-    float: left;
     background:
     url(../img/concierge.png);
     -webkit-background-size: cover;
@@ -340,8 +349,8 @@ p {
     -o-background-size: cover;
     background-size: cover;
 }
+
 .option-right {
-    float: right;
     background: 
     url(../img/box.png);
     -webkit-background-size: cover;
@@ -349,8 +358,13 @@ p {
     -o-background-size: cover;
     background-size: cover;
 }
+@media only screen and (min-width: 720px) {
+    .option-right {
+        float:right;
+    }
+}
 .spacing {
-    padding: 30px;
+    padding: 50px;
 }
 .tinted-image .spacing {
     padding-top: 180px;
@@ -493,9 +507,6 @@ p {
 .testimonial-quote.right cite {
     text-align: right; 
 }
-.hero {
-  padding-top: 50px;
-}
 .button {
   background-color: #fff;
   border: 1px solid #44B6FF;
@@ -515,10 +526,6 @@ p {
     #bgvid {
       display: none;
     }
-
-    .shipping-option {
-        width: 100%;
-    }
     .mockup-container {
       padding-top: 220px;
     }
@@ -527,6 +534,11 @@ p {
     }
     .step {
       width: 80%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .shipping-option {
+        width: 100%;
     }
 }
 @media only screen and (max-width: 480px) {
@@ -635,13 +647,17 @@ p {
     }
 }
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 81em) {
 
     .page {
       max-width: 1300px;
       margin: 0 auto;
     }
     #bgvid {
+    display: none;    }
+    .main-container {
+          background: #a0daff; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI3JSIgc3RvcC1jb2xvcj0iI2EwZGFmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0NGI2ZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
     background: -moz-linear-gradient(top,  #a0daff 7%, #44b6ff 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(7%,#a0daff), color-stop(100%,#44b6ff)); /* Chrome,Safari4+ */
@@ -650,6 +666,7 @@ p {
     background: -ms-linear-gradient(top,  #a0daff 7%,#44b6ff 100%); /* IE10+ */
     background: linear-gradient(to bottom,  #a0daff 7%,#44b6ff 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0daff', endColorstr='#44b6ff',GradientType=0 ); /* IE6-8 */
+
     }
 }
 
@@ -847,4 +864,56 @@ input:active{
   top: 70px;
   font-size: 12px;
   color: #aaa;
+}
+
+
+
+body {
+  font-size: 1.25em;
+  line-height: 1.4em;
+}
+h1 {
+  font-size: 3.05em;
+  line-height: 1.377049179em;
+  margin-top: 0.91803279em;
+  margin-bottom: 0.45901639em;
+}
+h2 {
+  font-size: 2.1em;
+  line-height: 1.333333334em;
+  margin-top: 1.33333333em;
+  margin-bottom: 0.66666667em;
+}
+h3 {
+  font-size: 1.45em;
+  line-height: 1.931034482em;
+  margin-top: 0.96551724em;
+  margin-bottom: 0.96551724em;
+}
+h4 {
+  font-size: 1em;
+  line-height: 1.4em;
+  margin-top: 1.4em;
+  margin-bottom: 1.4em;
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 1.4em;
+  margin-bottom: 1.4em;
+}
+
+/* Sanitation */
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+b, strong, em, small, code {
+  line-height: 1;
+}
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+sub {
+  top: 0.4em;
 }
