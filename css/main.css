@@ -561,7 +561,7 @@ p {
 
 .wrap {
   padding-top: 40px;
-  width: 320px;
+  max-width: 450px;
   margin: 0 auto;
 }
 
