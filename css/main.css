@@ -323,7 +323,9 @@ p {
     margin-bottom: 15px;
     opacity: 0.5;
 }
-
+.blue {
+  color: #44B6FF;
+}
 .blue-gradient {
     background: #a0daff; /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -520,7 +522,6 @@ sub {
 .uppercase {
   text-transform: uppercase;
 }
-
 .testimonial-widget {
   position: relative;
   text-align: center;
