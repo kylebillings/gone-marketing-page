@@ -368,6 +368,56 @@ p {
     -o-background-size: cover;
     background-size: cover;
 }
+
+body {
+  font-size: 1.25em;
+  line-height: 1.4em;
+}
+h1 {
+  font-size: 3.05em;
+  line-height: 1.377049179em;
+  margin-top: 0.91803279em;
+  margin-bottom: 0.45901639em;
+}
+h2 {
+  font-size: 2.1em;
+  line-height: 1.333333334em;
+  margin-top: 1.33333333em;
+  margin-bottom: 0.66666667em;
+}
+h3 {
+  font-size: 1.45em;
+  line-height: 1.931034482em;
+  margin-top: 0.96551724em;
+  margin-bottom: 0.96551724em;
+}
+h4 {
+  font-size: 1em;
+  line-height: 1.4em;
+  margin-top: 1.4em;
+  margin-bottom: 1.4em;
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 1.4em;
+  margin-bottom: 1.4em;
+}
+
+/* Sanitation */
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+b, strong, em, small, code {
+  line-height: 1;
+}
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+sub {
+  top: 0.4em;
+}
 @media only screen and (min-width: 720px) {
     .option-right {
         float:right;
@@ -633,7 +683,8 @@ p {
       padding-right: 10px !important;
       padding-top: 150px !important;
     }
-    .headshot {
+    h1 {
+      font-size: 2em;
     }
 }
 
@@ -940,56 +991,4 @@ input:active{
   top: 70px;
   font-size: 12px;
   color: #aaa;
-}
-
-
-
-body {
-  font-size: 1.25em;
-  line-height: 1.4em;
-}
-h1 {
-  font-size: 3.05em;
-  line-height: 1.377049179em;
-  margin-top: 0.91803279em;
-  margin-bottom: 0.45901639em;
-}
-h2 {
-  font-size: 2.1em;
-  line-height: 1.333333334em;
-  margin-top: 1.33333333em;
-  margin-bottom: 0.66666667em;
-}
-h3 {
-  font-size: 1.45em;
-  line-height: 1.931034482em;
-  margin-top: 0.96551724em;
-  margin-bottom: 0.96551724em;
-}
-h4 {
-  font-size: 1em;
-  line-height: 1.4em;
-  margin-top: 1.4em;
-  margin-bottom: 1.4em;
-}
-p, ul, ol, pre, table, blockquote {
-  margin-top: 1.4em;
-  margin-bottom: 1.4em;
-}
-
-/* Sanitation */
-ul ul, ol ol, ul ol, ol ul {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-b, strong, em, small, code {
-  line-height: 1;
-}
-sup, sub {
-  vertical-align: baseline;
-  position: relative;
-  top: -0.4em;
-}
-sub {
-  top: 0.4em;
 }
