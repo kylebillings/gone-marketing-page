@@ -43,9 +43,9 @@
 
         <div class="main-container">
             <video autoplay loop poster="gone.png" id="bgvid">
-        <source src="video/gone.webm" type="video/webm">
-        <source src="video/gone.mp4" type="video/mp4">
-        </video>
+                <source src="video/gone.webm" type="video/webm">
+                <source src="video/gone.mp4" type="video/mp4">
+            </video>
             <div class="header-container">
                 <header class="wrapper clearfix">
                     <h1 class="title"></h1>
@@ -62,12 +62,14 @@
                     <header class="text-center">
                         <img style="width: 90px;" src="img/gone-02.svg" alt="">
                         <h1 class="remove-bottom" >The Smartest Way To Sell</h1>
-                        <p class="margin-bottom">Gone! is a data-driven concierge service that makes it delightfully easy to turn your items into cash.</p>
-                        <a target="_blank" href="https://itunes.apple.com/app/id874081936?mt=8">
-                            <img class="margin-bottom" style="width: 200px;" src="img/app-store.svg" alt=""> 
-                        </a>                
+                        <p>Gone! is a data-driven concierge service that makes it delightfully easy to turn your items into cash.</p>
                     </header>
             </div> <!-- #main -->
+                        <div class="menu">
+                            <a target="_blank" href="https://itunes.apple.com/app/id874081936?mt=8">
+                                <img style="width: 200px; padding-bottom: 7px;" src="img/app-store.svg" alt=""> 
+                            </a>  
+                        </div>
         </div> <!-- #main-container -->
         <div id="media-partners">
             <img class="techstars-logo" src="img/techstars.png" alt="Techstars">
@@ -141,33 +143,51 @@
 
         <div class="testimonial-container">
             <div class="main wrapper clearfix">
-                <div style="width: 80%; margin: 0 auto; padding-top: 80px; padding-bottom: 80px;"> 
-                    <div class="testimonial-quote group">
-                            <img src="img/kyle.jpg" alt="" class="headshot">
-                        <div class="quote-container">
-                            <blockquote>
-                                <p>“Gone! has made my life so much easier. I didn’t realize how much I had to sell until it was this easy to do it!”</p>
-                            </blockquote>  
-                            <cite><span>Kyle Billings</span><br>
-                                Gone! user for 2 years.
-                            </cite>
+                    <div class="wrap">
+                      <div class="testimonial-widget">
+                        <div class="testimonial">
+                          <figure class="testimonial__mug">
+                            <img class="testimonial-img" src="img/kyle.jpg">
+                          </figure>
+                          <p>&ldquo;Gone! was so much fun to use — I didn't realize I had so much to sell until they made it this easy!&rdquo;</p>
+                          <!-- <button class="button hvr-fade">Read More</button> -->
+                          <p>
+                            <strong>Kyle Billings</strong>
+                          </p>
                         </div>
-                    </div>    
-                        
-                    <hr style="border-top: 1px solid #44B6FF; margin: 60px auto; opacity: .5;">     
-                    <div class="testimonial-quote group right">
-                            <img src="img/raphael.jpg" alt="" class="headshot">
-                        <div class="quote-container">
-                            <div>
-                                <blockquote>
-                                    <p>“I actually had a lot of fun using Gone!. I loved having them pack up my old Lenovo computer and send me cash for it.”</p>
-                                </blockquote>  
-                                <cite><span>Raphael Squire</span><br>
-                                    Gone! user for 1 year.
-                                </cite>
-                            </div>
+                        <div class="testimonial">
+                          <figure class="testimonial__mug">
+                            <img class="testimonial-img" src="img/kyle.jpg">
+                          </figure>
+                          <p>&ldquo;I had $1,300 of stuff lying around my apartment. Gone! helped me sell it all.&rdquo;</p>
+                          <!-- <button class="button hvr-fade">Read More</button> -->
+                          <p>
+                            <strong>Kyle Billings</strong>
+                          </p>
                         </div>
-                    </div>     
+                        <div class="testimonial">
+                          <figure class="testimonial__mug">
+                            <img class="testimonial-img" src="img/kyle.jpg">
+                          </figure>
+                          <p>&ldquo;I am so glad I found Gone!. They made it fantastically easy to get some extra vacation money :)&rdquo;</p>
+                          <!-- <button class="button hvr-fade">Read More</button> -->
+                          <p>
+                            <strong>Kyle Billings</strong>
+                          </p>
+                        </div>
+                        <div class="testimonial">
+                          <figure class="testimonial__mug">
+                            <img class="testimonial-img" src="img/kyle.jpg">
+                          </figure>
+                          <p>&ldquo;Gone! is honestly like Craigslist or Ebay but without ANY of the effort. I love these guys.&rdquo;</p>
+                          <!-- <button class="button hvr-fade">Read More</button> --><!-- 
+                          <p>
+                    -->         <strong>Kyle Billings</strong>
+                          </p>
+                        </div>
+                        <button class="testimonial-button prev-testimonial">Prev</button>
+                        <button class="testimonial-button next-testimonial">Next</button>
+                      </div>
                 </div>
             </div> <!-- #main -->
         </div> <!-- #testimonial-container -->
@@ -191,19 +211,30 @@
                               </div>
                             </div>
                             <div class="faq-c">
-                              <div class="faq-q"><span class="faq-t">+</span>What can I sell with Gone!</div>
+                              <div class="faq-q"><span class="faq-t">+</span>What can I sell?</div>
                               <div class="faq-a">
                                 <p>Take a look around you.</p>
                               </div>
                             </div>
                             <div class="faq-c">
-                              <div class="faq-q"><span class="faq-t">+</span>Can I ask another question here?</div>
+                              <div class="faq-q"><span class="faq-t">+</span>How do I get paid?</div>
+                              <div class="faq-a">
+                                <p>Sure.</p>
+                              </div>
+                            </div>
+                            <div class="faq-c">
+                              <div class="faq-q"><span class="faq-t">+</span>How much does Gone! charge?</div>
+                              <div class="faq-a">
+                                <p>Sure.</p>
+                              </div>
+                            </div>
+                            <div class="faq-c">
+                              <div class="faq-q"><span class="faq-t">+</span>Where will my items be sold?</div>
                               <div class="faq-a">
                                 <p>Sure.</p>
                               </div>
                             </div>
                         </div> <!-- container -->
-
             </div> <!-- #main -->
         </div> <!-- #pricing-container -->  
         <div class="mockup-container">
@@ -295,4 +326,97 @@
     });
 
 })();
+</script>
+<script>
+    var testimonials = {};
+
+testimonials.slider = (function(){
+  var currentItemIndex = 0,
+      prevBtn = $('.prev-testimonial'),
+      nextBtn = $('.next-testimonial'),
+      items = (function(){
+        var items = [];
+        $('.testimonial').each(function(){
+          items.push($(this));
+        });
+        return items;
+      })();
+  
+  function getCurrent(){
+    $('.testimonial').each(function(index){
+      $(this).removeClass('current');
+    });
+    $('.testimonial').eq(currentItemIndex).addClass('current');
+  }
+  
+  function greyOut(prevBtn, nextBtn){
+    if($(prevBtn).hasClass('grey-out')){
+      $(prevBtn).removeClass('grey-out');
+    }
+    if($(nextBtn).hasClass('grey-out')){
+      $(nextBtn).removeClass('grey-out');
+    }
+    if(currentItemIndex == 0){
+      $(prevBtn).addClass('grey-out');
+    }
+    if(currentItemIndex == items.length -1){
+      $(nextBtn).addClass('grey-out');
+    }
+  }
+
+    return{
+    init: function(prevBtn, nextBtn){
+      items[currentItemIndex].addClass('current');
+      greyOut(prevBtn, nextBtn);
+      $(prevBtn).click(function(){
+        if(currentItemIndex > 0){
+          currentItemIndex--;
+        }
+        getCurrent();
+        greyOut(prevBtn, nextBtn);
+      });
+      $(nextBtn).click(function(){
+        if(currentItemIndex < items.length - 1){
+          currentItemIndex++;
+        }
+        getCurrent();
+        greyOut(prevBtn, nextBtn);
+      });
+    }
+  };
+  
+})();
+
+testimonials.slider.init('.prev-testimonial', '.next-testimonial');
+</script>
+<script>
+    
+// Create a clone of the menu, right next to original.
+$('.menu').addClass('original').clone().insertAfter('.menu').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();
+
+scrollIntervalID = setInterval(stickIt, 10);
+
+
+function stickIt() {
+
+  var orgElementPos = $('.original').offset();
+  orgElementTop = orgElementPos.top;               
+
+  if ($(window).scrollTop() >= (orgElementTop)) {
+    // scrolled past the original position; now only show the cloned, sticky element.
+
+    // Cloned element should always have same left position and width as original element.     
+    orgElement = $('.original');
+    coordsOrgElement = orgElement.offset();
+    leftOrgElement = coordsOrgElement.left;  
+    widthOrgElement = orgElement.css('width');
+    $('.cloned').css('left',leftOrgElement+'px').css('top',0).css('width',widthOrgElement).show();
+    $('.original').css('visibility','hidden');
+  } else {
+    // not scrolled past the menu; only show the original menu.
+    $('.cloned').hide();
+    $('.original').css('visibility','visible');
+  }
+}
+
 </script>
