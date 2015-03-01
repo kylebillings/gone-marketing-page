@@ -13,6 +13,7 @@
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/animate.css">
 
         <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="apple-touch-icon-60x60.png">
@@ -40,12 +41,11 @@
         <![endif]-->
 
         
-
-        <div class="main-container">
             <video autoplay loop poster="gone.png" id="bgvid">
                 <source src="video/gone.webm" type="video/webm">
                 <source src="video/gone.mp4" type="video/mp4">
             </video>
+        <div class="main-container">
             <div class="header-container">
                 <header class="wrapper clearfix">
                     <h1 class="title"></h1>
@@ -60,7 +60,7 @@
             </div>
             <div class="main wrapper clearfix">
                     <header class="text-center">
-                        <img style="width: 90px;" src="img/gone-02.svg" alt="">
+                        <img style="width:110px;" src="img/gone-02.svg" alt="">
                         <h1 class="remove-bottom" >The Smartest Way To Sell</h1>
                         <p>Gone! is a data-driven concierge service that makes it delightfully easy to turn your items into cash.</p>
                     </header>
@@ -86,22 +86,24 @@
         <div class="intro-container">
             <div class="main wrapper clearfix">
                     <header class="text-center">
-                        <h1 class="blue">Designed to help sell your things.</h1>
-                        <hr class="blue-line"/>
-                        <div class="container">
-                            <p class="margin-bottom">Gone! takes care of the logistics of selling from finding the best listing prices for your items to handling all packaging and shipments and collecting money for your sales.</p>
+                        <div class="wow fadeInUp">
+                            <h1 class="blue">Designed to help sell your things.</h1>
+                            <hr class="blue-line"/>
+                            <div class="container">
+                                <p class="margin-bottom">Gone! takes care of the logistics of selling from finding the best listing prices for your items to handling all packaging and shipments and collecting money for your sales.</p>
+                            </div>
                         </div>
-                        <div class="step">
+                        <div class="step wow fadeInUp">
                             <img style="height: 120px;" class="remove-bottom" src="img/icon1.png" alt="">
                             <h2 class="remove-top">Priced</h2>
                             <p>Gone! algorithmically finds the best selling price for your items.</p>
                         </div>
-                        <div class="step">
+                        <div class="step wow fadeInUp"data-wow-delay=".5s">
                             <img style="height: 120px;" class="remove-bottom" src="img/icon2.png" alt="">
                             <h2 class="remove-top">Packed</h2>
                             <p>Gone! offers helpful shipping services once you are ready to sell.</p>
                         </div>
-                        <div class="step">
+                        <div class="step wow fadeInUp"data-wow-delay="1s">
                             <img style="height: 120px;" class="remove-bottom" src="img/icon3.png" alt="">
                             <h2 class="remove-top">Paid</h2>
                             <p>Gone! sends you a check with your earnings once your items are sold.</p>
@@ -111,9 +113,10 @@
         </div> <!-- #intro-container -->  
         
         <div class="pricing-container blue-gradient">
-            <div class="main wrapper clearfix">
+            <div class="main wrapper clearfix wow fadeInUp"data-wow-delay=".5s">
                     <header class="text-center">
                         <h1>Finding the best prices for your items.</h1>
+                        <hr class="white-line"/>
                         <div class="container">
                             <p class="margin-bottom">Gone! constantly analyzes transactions from all around the world to pinpoint and follow market prices for thousands of items.</p>
                         </div>
@@ -122,34 +125,42 @@
             <canvas width='1200' height='240' id="hero-bar"></canvas>
         </div> <!-- #pricing-container -->
 
-        <div id="shipping-container">
-                <div class="shipping-option option-left">
-                    <div class="tinted-image hvr-fade">
-                        <div class="spacing hvr-grow">
-                            <h2>Concierge</h2>
-                            <p>In San Francisco & Austin, Gone! will send a member of our team to your home to collect your items for sale.</p>
+        <div id="shipping-container" style="background-color: #fff;">
+            <div class="wrapper clearfix text-center">
+                <h1 class="blue">Hands Free Shipping</h1>
+                <hr class="blue-line">
+                <div class="shipping-option option-left wow fadeInLeft">
+                    <div class="text-center">
+                        <div class="text-spacing">
+                            <img style="width: 240px;"src="img/hat-icon.svg" alt="">
+                            <h2 class="blue remove-top remove-bottom">Concierge</h2>
+                            <h4 class="gray remove-top"><em>San Francisco & Austin</em></h4>
+                            <p>In San Francisco & Austin, Gone! will send a team member to your home at your convenience to pack and prepare your items for sale.</p>
                         </div>
                     </div>
                 </div>
-                <div class="shipping-option option-right">
-                    <div class="tinted-image hvr-fade">
-                        <div class="spacing hvr-grow">
-                            <h2>Box Service</h2>
-                            <p>If Gone! can’t make it to your door, you will receive free boxes and shipping instructions in the mail.</p>
+                <div class="shipping-option option-right wow fadeInRight" data-wow-delay="1s">
+                    <div class="text-center">
+                        <div class="text-spacing">
+                            <img style="width: 240px;"src="img/box-icon.svg" alt="">
+                            <h2 class="blue remove-top remove-bottom">UPS Box Service</h2>
+                            <h4 class="gray remove-top"><em>United States</em></h4>
+                            <p>If Gone! can’t make it to your door, you will receive free boxes with packing materials, pre-paid labels, and instructions for shipping or scheduling a pickup with UPS.</p>
                         </div>
                     </div>
-                </div>  
+                </div> 
+            </div> 
         </div> <!-- #shipping-container -->
 
         <div class="testimonial-container">
             <div class="main wrapper clearfix text-center">
-                <h1 class="blue">Gone! Stories</h1>
+                <h1 class="blue wow fadeInUp">What Gone! Users Have To Say</h1>
                 <hr class="blue-line"/>
-                    <div class="wrap">
+                    <div class="wrap wow fadeInUp">
                       <div class="testimonial-widget">
                         <div class="testimonial">
                           <figure class="testimonial__mug">
-                            <img class="testimonial-img" src="img/kyle.jpg">
+                              <img class="testimonial-img" src="img/kyle.jpg">
                           </figure>
                           <p>&ldquo;Gone! was so much fun to use — I didn't realize I had so much to sell until they made it this easy!&rdquo;</p>
                           <!-- <button class="button hvr-fade">Read More</button> -->
@@ -196,8 +207,8 @@
         <div class="pricing-container blue-gradient">
             <div class="main wrapper clearfix">
                     <header class="text-center">
-                        <h1>Frequently asked questions.</h1>
-                        <img style="width: 265px;" class="margin-bottom" src="img/icon4.png" alt="">
+                        <h1 class="remove-bottom wow fadeInUp">Frequently asked questions.</h1>
+                        <img style="width: 265px;" class="margin-bottom wow fadeInUp" src="img/faq-icon.svg" alt="">
                     </header>
                     <div class="container">
                             <div class="faq-c">
@@ -260,6 +271,15 @@
 
         <script src="js/main.js"></script>
         <script src="js/Chart.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>
+        //WOW Scroll Spy
+var wow = new WOW({
+    //disabled for mobile
+    mobile: false
+});
+wow.init();
+        </script>
 
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
