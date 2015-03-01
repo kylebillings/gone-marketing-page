@@ -7,10 +7,10 @@
 </g>
 <g id="Layer_1">
 	<g>
-		<path fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M180,86
+		<path vector-effect="non-scaling-stroke" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M180,86
 			c-70.3,0-127.3,42.1-127.3,94c0,14.3,4.3,27.8,12.1,40l-11.6,43.2l44-11.8c22.3,14.1,51.2,22.6,82.8,22.6
 			c70.3,0,127.3-42.1,127.3-94C307.3,128.1,250.3,86,180,86z"/>
-		<path fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M218.5,155.8
+		<path vector-effect="non-scaling-stroke" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M218.5,155.8
 			c-7.5-13.2-21.6-22.5-37.9-22.5c-24.1,0-43.5,19.4-43.5,43.4s19.5,44,43.6,44c21.5,0,39.3-15,42.9-35.4H111"/>
 	</g>
 </g>

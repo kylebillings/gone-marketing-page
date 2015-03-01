@@ -17,7 +17,8 @@
 	
 		<rect vector-effect="non-scaling-stroke" x="297.9" y="96.1" fill="none" stroke="#44B6FF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="21.3" height="21.3"/>
 </g>
-<line vector-effect="non-scaling-stroke" fill="none" stroke="#44B6FF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="26.4" y1="84.3" x2="179.1" y2="67.6"/>
+<line vector-effect="non-scaling-stroke" fill="none" stroke="#44B6FF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="26.4" y1="84.3" x2="179.1" y2="67.6"><animate attributeName="y2" from="67.6" to="67.6" begin="0s" dur="4s" values="67.6;67.6;84.3;84.3;84.3;67.6;67.6" keySplines="0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1" keyTimes="0;0.22;0.33;0.55;0.66;0.88;1" calcMode="spline" repeatCount="indefinite"></animate></line>
+<line vector-effect="non-scaling-stroke" fill="none" stroke="#44B6FF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="333.6" y1="84.3" x2="183.8" y2="50.4"><animate attributeName="y2" from="50.4" to="50.4" begin="0s" dur="4s" values="50.4;84.3;84.3;84.3;84.3;50.4;50.4" keySplines="0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1" keyTimes="0;0.22;0.33;0.55;0.66;0.88;1" calcMode="spline" repeatCount="indefinite"></animate></line>
 <g>
 	
 		<polyline vector-effect="non-scaling-stroke" fill="none" stroke="#44B6FF" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
@@ -31,4 +32,6 @@
 	
 		<line vector-effect="non-scaling-stroke" fill="none" stroke="#44B6FF" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="504.6" y1="1388.5" x2="504.6" y2="1719"/>
 </g>
+
 </svg>
+ 

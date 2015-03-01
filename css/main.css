@@ -534,9 +534,9 @@ sub {
   opacity: 1;
   position: relative;
   z-index: initial;
-  -moz-animation: fadein 1s ease;
-  -webkit-animation: fadein 1s ease;
-  animation: fadein 1s ease;
+  -moz-animation: fadein 1.5s ease;
+  -webkit-animation: fadein 1.5s ease;
+  animation: fadein 1.5s ease;
 }
 
 .prev-testimonial,
@@ -681,6 +681,10 @@ p {
     }
     h1 {
       font-size: 2em;
+    }
+    .text-spacing {
+      padding-left: 15px;
+      padding-right: 15px;
     }
 }
 
