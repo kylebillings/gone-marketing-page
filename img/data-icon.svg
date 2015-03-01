@@ -10,13 +10,13 @@
 		<polyline vector-effect="non-scaling-stroke" fill="none" stroke="#44B6FF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 			319.1,280 40.9,280 40.9,80 		"/>
 		
-			<line vector-effect="non-scaling-stroke" fill="none" stroke="#44B6FF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="101.2" y1="120.4" x2="101.2" y2="279.8"/>
+			<line vector-effect="non-scaling-stroke" fill="none" stroke="#44B6FF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="101.2" y1="120.4" x2="101.2" y2="279.8"><animate attributeName="y1" from="120.4" to="120.4" begin="0s" dur="2s" values="120.4;140;140;180;180;120.4;120.4" keySplines="0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1" keyTimes="0;0.22;0.33;0.55;0.66;0.88;1" calcMode="spline" repeatCount="indefinite"></animate></line>
 		
-			<line vector-effect="non-scaling-stroke" fill="none" stroke="#44B6FF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="161.6" y1="200.1" x2="161.6" y2="279.8"/>
+			<line vector-effect="non-scaling-stroke" fill="none" stroke="#44B6FF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="161.6" y1="200.1" x2="161.6" y2="279.8"><animate attributeName="y1" from="200.1" to="200.1" begin="0s" dur="2s" values="200.1;110;110;140;140;200.1;200.1" keySplines="0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1" keyTimes="0;0.22;0.33;0.55;0.66;0.88;1" calcMode="spline" repeatCount="indefinite"></animate></line>
 		
-			<line vector-effect="non-scaling-stroke" fill="none" stroke="#44B6FF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="221.9" y1="160.9" x2="221.9" y2="279.8"/>
+			<line vector-effect="non-scaling-stroke" fill="none" stroke="#44B6FF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="221.9" y1="160.9" x2="221.9" y2="279.8"><animate attributeName="y1" from="160.9" to="160.9" begin="0s" dur="2s" values="160.9;100;100;120;120;160.9;160.9" keySplines="0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1" keyTimes="0;0.22;0.33;0.55;0.66;0.88;1" calcMode="spline" repeatCount="indefinite"></animate></line>
 		
-			<line vector-effect="non-scaling-stroke" fill="none" stroke="#44B6FF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="282.3" y1="223.4" x2="282.3" y2="279.8"/>
+			<line vector-effect="non-scaling-stroke" fill="none" stroke="#44B6FF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="282.3" y1="223.4" x2="282.3" y2="279.8"><animate attributeName="y1" from="223.4" to="223.4" begin="0s" dur="2s" values="223.4;200;200;135;135;223.4;223.4" keySplines="0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1" keyTimes="0;0.22;0.33;0.55;0.66;0.88;1" calcMode="spline" repeatCount="indefinite"></animate></line>
 	</g>
 </g>
 </svg>
