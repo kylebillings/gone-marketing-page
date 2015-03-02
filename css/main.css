@@ -439,52 +439,21 @@ sub {
     width: 30%;
     display: inline-block;
 }
-.faq-header{
-  font-size: 2em;
-  padding: 1em 0;
+.faq-container {
+  width: 90%;
+  margin: 0 auto;
 }
-
-.faq-c {
-  padding: 10px;
+.faq-row {
+  display: block;
+  width: 100%;
 }
-
-.faq-t {
-  line-height: 1em;
-  color: #fff; 
-  float:left; 
-  font-weight: 100; 
-  padding-right: 0.3em; 
-  margin-top: 6px;
-  -webkit-transition: all 200ms;
-  -moz-transition: all 200ms;
-  transition: all 200ms;
+.faq-item {
+  width: 45%;
+  padding: 15px;
+  border-radius: 4px;
+  float: left;
+  margin: 0 auto;
 }
-
-.faq-o {
-  transform: rotate(-45deg);
-  transform-origin: 50% 50%;
-  -ms-transform: rotate(-45deg);
-  -ms-transform-origin: 50% 50%;
-  -webkit-transform: rotate(-45deg);
-  -webkit-transform-origin: 50% 50%;
-  -webkit-transition: all 200ms;
-  -moz-transition: all 200ms;
-  transition: all 200ms;
-}
-
-.faq-q {
-  cursor: pointer;
-  font-size: 1em;
-  font-weight: 100;
-}
-
-.faq-a {
-  clear: both;
-  color: #fff;
-  display: none;
-  padding-left: 1.5em;
-}
-
 #hero-bar {
     display: inline-block;
   left: 0;
