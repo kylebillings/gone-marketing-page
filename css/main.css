@@ -349,7 +349,9 @@ p {
     background: linear-gradient(to bottom,  #a0daff 7%,#44b6ff 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0daff', endColorstr='#44b6ff',GradientType=0 ); /* IE6-8 */
 }
-
+#shipping-container {
+  padding-bottom: 30px;
+}
 .shipping-option {
     background-color: #fff;
     width: 50%;
@@ -364,8 +366,11 @@ p {
 }
 
 body {
-  font-size: 1.25em;
+  font-size: 1em;
   line-height: 1.4em;
+}
+.main-container {
+  font-size: 1.25em;
 }
 h1 {
   font-size: 3.05em;
@@ -807,16 +812,10 @@ input:active{
 }
 blockquote.twitter-tweet {
   display: inline-block;
-  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
   font-size: 12px;
   font-weight: bold;
   line-height: 16px;
-  border-color: #eee #ddd #bbb;
-  border-radius: 5px;
-  border-style: solid;
   border-width: 1px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-  margin: 10px 5px;
   padding: 0 16px 16px 16px;
   max-width: 468px;
 }
