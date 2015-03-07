@@ -77,10 +77,3 @@
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
 }
-
-@media (max-width: 800px) {
-  .columns {
-    width: 85% !important;}
-    .columns:first-child {
-    margin-left: 4%; }
-}

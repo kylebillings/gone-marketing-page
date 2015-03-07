@@ -441,6 +441,9 @@ sub {
 .faq-container {
   background-color: #fff;
 }
+.faq-container .six.columns {
+  min-height: 225px;
+}
 .button {
   background-color: #fff;
   border: 1px solid #44B6FF;
@@ -874,4 +877,10 @@ blockquote.twitter-tweet a:focus {
 
   .offset-by-one-half.column,
   .offset-by-one-half.columns     { margin-left: 52%; }
+}
+@media (max-width: 800px) {
+  .columns {
+    width: 85% !important;}
+    .columns:first-child {
+    margin-left: 4%; }
 }
