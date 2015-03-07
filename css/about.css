@@ -1,6 +1,5 @@
 .outline {
     border-radius: 9999px;
-    border: 1px solid #44B6FF;
     z-index: 50;
 }
 .headshot {
@@ -9,6 +8,8 @@
 }
 .about-container {
   background-color: #fff;
+  font-size: 1.4em;
+  line-height: 1.4em;
 }
 .main-container {
   background: linear-gradient(
@@ -19,6 +20,23 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.team-container {
+  background-color: #fff;
+  padding-bottom: 50px;
+}
+.team-container img {
+  margin: 20px;
+}
+.team-container h3 {
+  font-weight: 200;
+  color: #44b6ff;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.team-container p {
+  margin-top: 0px;
+  color :#62676C;
 }
 .hvr-fade {
   display: inline-block;
@@ -58,4 +76,11 @@
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
+}
+
+@media (max-width: 800px) {
+  .columns {
+    width: 85% !important;}
+    .columns:first-child {
+    margin-left: 4%; }
 }
