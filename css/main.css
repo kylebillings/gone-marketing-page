@@ -794,6 +794,48 @@ blockquote.twitter-tweet a:hover,
 blockquote.twitter-tweet a:focus {
   text-decoration: underline;
 }
+input[name='panel'] {
+  display: none;
+}
+
+.faq-container label {
+  display: block;
+  padding: 0.8em;
+  width: 90%;
+  color: #222426;
+  line-height: 1em;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.faq-container label:hover {
+  color: rgb(68,182,255);
+}
+
+.collapsible {
+  display: block;
+  width: 90%;
+  padding: 0 1em;
+  background: #fff;
+}
+
+input[name='panel'] + .collapsible {
+  overflow: hidden;
+  height: 0;
+
+  -webkit-transition: height .5s ease;
+  -moz-transition: height .5s ease;
+  -ms-transition: height .5s ease;
+  -o-transition: height .5s ease;
+  transition: height .5s ease;
+}
+
+input[name='panel']:checked + .collapsible {
+  overflow: auto;
+  height: 180px; /* needs a numeric value here to keep transition */
+}
+
+
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
