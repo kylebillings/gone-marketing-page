@@ -797,6 +797,7 @@ blockquote.twitter-tweet a:focus {
 input[name='panel'] {
   display: none;
 }
+/* ## FAQ CSS ## */
 .faq-container a {
   text-decoration: none;
 }
@@ -827,7 +828,7 @@ input[name='panel'] {
 .faq-container ul li a.toggle:hover {
   background: rgba(68,182,255,.7);
 }
-
+/* ## FAQ CSS ## */
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
