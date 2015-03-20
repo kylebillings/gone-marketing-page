@@ -797,42 +797,35 @@ blockquote.twitter-tweet a:focus {
 input[name='panel'] {
   display: none;
 }
-
-.faq-container label {
-  display: block;
-  padding: 0.8em;
-  width: 90%;
-  color: #222426;
-  line-height: 1em;
-  font-size: 1.1em;
-  cursor: pointer;
+.faq-container a {
+  text-decoration: none;
 }
-
-.faq-container label:hover {
-  color: rgb(68,182,255);
+.faq-container ul {
+  list-style: none;
+  padding: 0;
 }
-
-.collapsible {
-  display: block;
-  width: 90%;
-  padding: 0 1em;
-  background: #fff;
-}
-
-input[name='panel'] + .collapsible {
+.faq-container ul .inner {
+  padding-left: 1em;
   overflow: hidden;
-  height: 0;
-
-  -webkit-transition: height .5s ease;
-  -moz-transition: height .5s ease;
-  -ms-transition: height .5s ease;
-  -o-transition: height .5s ease;
-  transition: height .5s ease;
+  display: none;
 }
-
-input[name='panel']:checked + .collapsible {
-  overflow: auto;
-  height: 180px; /* needs a numeric value here to keep transition */
+.faq-container ul .inner.show {
+  /*display: block;*/
+}
+.faq-container ul li {
+  margin: .5em 0;
+}
+.faq-container ul li a.toggle {
+  width: 100%;
+  display: block;
+  color: #222426;
+  background: rgba(68,182,255,.1);
+  padding: .75em;
+  border-radius: 0.15em;
+  transition: background .3s ease;
+}
+.faq-container ul li a.toggle:hover {
+  background: rgba(68,182,255,.7);
 }
 
 
