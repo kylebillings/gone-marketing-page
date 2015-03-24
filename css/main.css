@@ -817,7 +817,6 @@ input[name='panel'] {
   margin: .5em 0;
 }
 .faq-container ul li a.toggle {
-  width: 100%;
   display: block;
   color: #222426;
   background: rgba(68,182,255,.1);
@@ -916,7 +915,5 @@ input[name='panel'] {
 }
 @media (max-width: 800px) {
   .columns {
-    width: 85% !important;}
-    .columns:first-child {
-    margin-left: 4%; }
+    width: 95% !important;}
 }
