@@ -10,8 +10,6 @@ var logo = $('header h1.logo');
 var appStoreBadge = $('#ios-badge');
 var thingsToHide = $('header h1, #share-tease, #share-buttons, header nav a.button, #ios-badge, section#hero h1')
 var container = $('div#section-container')
-var knockVideo = $('#knock-to-unlock-video')
-var knockVideoElem = document.getElementById("knock-to-unlock-video")
 
 
 /////////////////////////////////////////////////////////
@@ -87,7 +85,7 @@ $(function(){
         toNextSection();
       }
       else { // Just load the video directly so iOS uses its default play UI
-        window.location.href = "/public/vid/knock-nojs.mp4"
+        window.location.href = "videos/movie.mp4"
       }
     });
 
