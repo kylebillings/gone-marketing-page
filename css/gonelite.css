@@ -9,15 +9,12 @@ body {
 a, a:link, a:visited, a:active {
     cursor: pointer;
     text-decoration: none;
-    color: #2db2ff;
 }
 .wrapper {
     max-width: 840px;
     min-width: 360px;
-    height: 100%;
     margin: 0 auto;
-    position: relative;
-    min-height: 100%}
+    position: relative;}
 @media only screen and (max-width: 850px) and (orientation: portrait) {
     .wrapper {
     padding: 0px 4%}
