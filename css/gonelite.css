@@ -1650,13 +1650,15 @@ body.make-way2 #youtube-player {
     z-index: 2;
     box-shadow: inset 0px -200px 200px 0px rgba(0, 0, 0, 0.6);
 }
-}@media only screen and (max-width: 580px) {
+}
+@media only screen and (max-width: 580px) {
     section#hero {
     background-size: 270%;
     background-position: top;
     box-shadow: none;
 }
-}@media only screen and (max-width: 580px) and (max-height: 380px) {
+}
+@media only screen and (max-width: 580px) and (max-height: 380px) {
     section#hero {
     background-size: 220%}
 }section#hero .wrapper {
@@ -2919,7 +2921,6 @@ header #share-tease.on-video a.button.wingman span.count, header #share-tease.on
 }
 section {
     z-index: 4;
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -3264,9 +3265,6 @@ to {
 to {
     background-position-y: 102px;
 }
-}
-.gonelite-container {
-    margin-top: 55%;
 }
 @-moz-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
