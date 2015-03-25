@@ -1659,6 +1659,7 @@ body.make-way2 #youtube-player {
     color: white;
     position: fixed;
     z-index: 6;
+    padding: 3em;
 }
 @media only screen and (max-width: 850px) and (orientation: portrait) {
     section#hero {
@@ -1687,9 +1688,9 @@ section#hero h1 {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0;
+    top: 200px;
     font-weight: 100;
-    font-size: 6em;
+    font-size: 12em;
     text-align: center;
     margin: 0;
     z-index: 99;
@@ -1785,7 +1786,7 @@ section#hero.on-screen h1 {
     transition-delay: 0s, 0s, 0s;
 }
 section#hero.on-screen h1:hover {
-    color: #6cfeab;
+    color: #44b6ff;
 }
 section#hero.playing h2 {
     display: block;
