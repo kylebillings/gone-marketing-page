@@ -3314,7 +3314,32 @@ to {
     transform: translateY(-15px);
   }
 }
-
+#hero2 {
+    display: none;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 20%;
+    background: url(../img/hero-bg2.jpg) center center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+#hero2 button {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background: none;
+    padding: 20px 30px 20px 30px;
+    font-size: 1.5em;
+    margin-top: 20%;
+    transition: .5s;
+}
+#hero2 button:hover {
+    background: #fff;
+    color: #44b6ff;
+}
+#hero2 a {
+    color: white;
+}
 .arrow {
   position: absolute;
   bottom: 0;
@@ -3331,4 +3356,12 @@ to {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
+}
+@media only screen and (max-width: 680px){
+    #hero {
+        display: none !important;
+    }
+    #hero2 {
+        display: block;
+    }
 }
